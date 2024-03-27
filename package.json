@@ -1,0 +1,16 @@
+{
+  "name": "draft-openagents-nip90-impl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "nostr-tools": "^2.3.2",
+    "ws": "^8.16.0"
+  }
+}
