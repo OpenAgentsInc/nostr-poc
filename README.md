@@ -1,6 +1,6 @@
-# OpenAgents NIP 90 protocol implementation PoC (draft)
+# OpenAgents NIP-90 based protocol implementation PoC (draft)
 
-This is a proof of concept implementation of the NIP 90 protocol for OpenAgents.
+This is a proof of concept implementation of a [NIP-90](https://github.com/nostr-protocol/nips/blob/master/90.md) based protocol for OpenAgents.
 A new job kind is introduced, the `OpenAgents Job` that allows to call an OpenAgents node to perform some work [NIP90-5003-draft.md](./NIP90-5003-draft.md) (more work is needed to complete the specification).
 
 The simulation runs a set of mockup nodes that are chained together to simulate an agent chain.
