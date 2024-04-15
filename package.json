@@ -1,16 +1,23 @@
 {
-  "name": "draft-openagents-nip90-impl",
+  "name": "openagents-nostr-pool-poc",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.js",
   "scripts": {
-    "start": "node src/main.js"
+    "node2node": "node node2node/src/main.js",
+    "nostrViaPool": "node nostrViaPool/src/main.js"
   },
   "type": "module",
   "author": "",
   "license": "",
   "dependencies": {
+    "@grpc/grpc-js": "^1.10.6",
+    "@noble/ciphers": "^0.5.2",
+    "@noble/curves": "^1.4.0",
+    "@noble/hashes": "^1.4.0",
+    "@noble/secp256k1": "^2.1.0",
+    "@protobuf-ts/grpc-transport": "^2.9.4",
     "nostr-tools": "^2.3.2",
+    "openagents-grpc-proto": "https://github.com/riccardobl/openagents-grpc-proto/releases/download/v0.4/openagents_grpc_proto-JAVASCRIPT.tgz",
     "ws": "^8.16.0"
   }
 }
